@@ -1,3 +1,5 @@
+
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,7 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import com.goods.web.goods;
 
 
 import dbconn.DBconn;
@@ -36,9 +37,6 @@ public class deleteServlet extends HttpServlet {
                 req.setAttribute("resInt", resInt);
                 req.setAttribute("right","商品信息删除成功！");
                 req.getRequestDispatcher("/delete.jsp").forward(req, resp);
-
-                prtmt.close();
-                conn.close(); // 关闭数据库连接
             } catch (SQLException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();

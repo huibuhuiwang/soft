@@ -58,5 +58,4 @@
             <servlet-name>updateServlet</servlet-name>
             <url-pattern>/updateServlet</url-pattern>
         </servlet-mapping>
-
 </web-app>

@@ -22,14 +22,14 @@
             margin: 0 auto;
             overflow: hidden;
         }
-         td th
+        td th
         {border: 0px solid gray;}
-         body{
-             margin: 0px;
-             padding: 0;
-             background-origin: border-box;/*从边框区域显示*/
-             background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
-         }
+        body{
+            margin: 0px;
+            padding: 0;
+            background-origin: border-box;/*从边框区域显示*/
+            background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
+        }
         #poster {
             background:url("image/login_ui.jpg") no-repeat;
             background-position: center;
@@ -72,57 +72,51 @@
     </style>
 </head>
 <body id="poster">
-<!-- <div>
-    <img src="image/image1.jpg" width="1200px" height="200px">
-         <body background="image/image1.jpg">
-     </div>--->
-    <div class="title-container">
-      <h3 class="title">商品后台管理系统</h3>
-    </div>
-    <table align="center">
-        <thead></thead>
-        <tbody>
-
+<div class="title-container">
+    <h3 class="title">商品后台管理系统</h3>
+</div>
+<table align="center">
     <form method="get" id="form" action="<%=path%>/LoginServlet">
+    <thead></thead>
+    <tbody>
+
         <tr>
             <td><label>用户名</label>
-            <input type="text"  tabindex="1" id="username" name="username" value="${param.username}" placeholder="请输入用户名"/></td>
+                <input type="text"  tabindex="1" id="username" name="username" value="${param.username}" placeholder="请输入用户名"/></td>
             <br>
         </tr>
         <tr>
             <td><label>&nbsp&nbsp&nbsp密码</label>
-            <input type="password"  tabindex="1" id="password" name="password" placeholder="请输入密码"/></td>
+                <input type="password"  tabindex="1" id="password" name="password" placeholder="请输入密码"/></td>
             <br>
         </tr>
-
-        </tbody>
-        <tfoot>
-        <tr align="center">
-            <td colspan="2">
+    </tbody>
+    <tfoot>
+    <tr align="center">
+        <td colspan="2">
             <button type="button" name="LoginButton" style="width:100%;margin-bottom:30px;" onclick="LoginVerify();">登录</button>
-            </td>
-        </tr>
-        <tr align="center">
-            <td> ${error}</td>
-        </tr>
-        </tfoot>
+        </td>
+    </tr>
+    <tr align="center">
+        <td> ${error}</td>
+    </tr>
+    </tfoot>
     </form>
-    </table>
+</table>
 </body>
 </html>
 <script>
     function LoginVerify(){
         var username =document.getElementById("username").value;
         var password =document.getElementById("password").value;
-        if(username == '') {
+        if(username === ''|| username == null) {
             alert('用户名不能为空！');
             return;
         }
-        if(password == '') {
+        if(password === ''||password == null) {
             alert('密码不能为空！');
-        return;}
+            return;}
         //调用后台servlet
         document.getElementById("form").submit();
     }
-
 </script>

@@ -55,6 +55,6 @@
     }
 %>
 <br>
-      <div><a href="index.jsp">返回</a>
+      <div><a href="/displayServlet">返回</a>
 </body>
 </html>

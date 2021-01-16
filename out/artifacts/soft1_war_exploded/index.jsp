@@ -57,5 +57,6 @@
   <div class="btns"><a href="update.jsp">修改商品信息</a></div>
   <div class="btns"><a href="query.jsp">查询商品</a></div>
     <div class="btns"><a href="display.jsp">显示商品信息</a></div>
+
   </body>
 </html>

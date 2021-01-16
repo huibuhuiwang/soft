@@ -1,3 +1,5 @@
+
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,7 +19,7 @@ public class LoginServlet extends HttpServlet {
         if("admin".equals(username) && "88888".equals(password)) {
           //密码正确
             req.setAttribute("username",username);
-            req.getRequestDispatcher("/index.jsp").forward(req,resp);
+            req.getRequestDispatcher("/displayServlet").forward(req,resp);
         }
         else
         {

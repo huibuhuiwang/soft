@@ -52,9 +52,11 @@
               <td><input type="text" id="good_supplierprices" name="supplierprice"></td>
           </tr>
           <br>
-          <tr align="center">
-              <td></td>
-              <td><input type="submit" id="add_submit" name="add_submit" onclick="addVerify()" value="确认提交"></td>
+          <tr  colspan="2" align="center">
+
+              <td><input type="submit" id="add_submit" name="add_submit" onclick="addVerify()" value="确认提交">
+                  <button type="button" onclick="cancel();">取消</button> </td>
+
           </tr>
       </form>
       </tbody>
@@ -72,31 +74,52 @@ ${error1}
         var good_sales =document.getElementById("goodssales").value;
         var good_purchasedata =document.getElementById("purchasedata").value;
         var good_supplier =document.getElementById("supplierprice").value;
-        if(good_id == '') {
+        if(good_id === ''||good_id == null) {
             alert('商品号不能为空！');
             return;
         }
-        if(good_name == '') {
+        if(good_name === ''||good_name == null) {
             alert('商品名不能为空！');
             return;}
-        if(good_price == '') {
+        if(good_price === ''||good_price == null) {
             alert('商品价格不能为空！');
             return;}
-        if(good_number ==''){
+        if(good_number ===''||good_number == null){
             alert('库存不能为空！');
             return;
         }
-        if(good_sales == '') {
+        if(good_sales === ''||good_sales == null) {
             alert('商品销量不能为空！');
             return;}
-        if(good_purchasedata == '') {
+        if(good_purchasedata === ''||good_purchasedata == null) {
             alert('进货日期不能为空！');
             return;}
-        if(good_supplier == '') {
+        if(good_supplier === ''||good_supplier == null) {
             alert('商品进价不能为空！');
             return;}
-        //调用后台servlet
 
-        document.getElementById("form").submit();
+            //判断重复
+         var url = '<%=path1%>/displayServlet',params='type=1&good_id'+good_id;
+         var ret = getDataByAjax(url,params);
+         if(ret == "1"){ //调用后台servlet
+             document.getElementById("form").submit();
+         }else {
+             alert("该商品号存在,请重新输入！")
+         }
+    }
+    function cancel() {
+        window.location.href = "<%=path1%>/displayServlet";
+    }
+    function getDataByAjax(url, params) {
+        var ajaxobj = null;
+        if(window.ActiveXObject){
+            ajaxobj = new ActiveXObject("Microsoft.XMLHTTP");
+        }else {
+            ajaxobj = new XMLHttpRequest();
+        }
+        ajaxobj.open('POST',url,false);
+        ajaxobj.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        ajaxobj.send(params);
+        return ajaxobj.responseText;
     }
 </script>

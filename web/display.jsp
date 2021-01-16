@@ -16,29 +16,43 @@
         {border: 1px solid gray;}
         td{border: 1px solid gray;}
         th{border: 1px solid gray;}
+        a{
+            color: black;
+            TEXT-DECORATION:none
+        }
+        .btns{
+            background: white;
+            float: left;
+            list-style: none;
+            width: 160px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            color: #DCF4F4;
+        }
+        .btns:hover{
+            color: white;
+            font-weight: bold;
+            background: blue;
+        }
     </style>
 </head>
 
 <body>
-    <table>
-        <thead></thead>
-        <tbody>
-        <form method="get" id="form" action="<%=path3%>/displayServlet">
-            <tr>
-                <td><label>展示信息</label></td>
-            </tr>
-            <br>
-            <tr>
-            <td><input type="submit" id="dis_sub" name="dis_sub"  value="展示"></td>
-            </tr>
-        </tbody>
-        </form>
-    </table>
+嗨 你好!${username}<a href="login.jsp">退出</a>
+<br><br>
+<div class="btns"><a href="add.jsp">添加商品</a></div>
+<div class="btns"><a href="delete.jsp">删除商品</a></div>
+<div class="btns"><a href="update.jsp">修改商品信息</a></div>
+<div class="btns"><a href="query.jsp">查询商品</a></div>
+<div class="btns"><a href="display.jsp">显示商品信息</a></div>
+<br><br><br><br><br>
 <br>
     <table>
         <thead>
 
         <tr>
+            <th>序号</th>
             <th>商品号</th>
             <th>商品名字</th>
             <th>商品价格</th>
@@ -49,8 +63,9 @@
         </tr>
     </thead>
         <tbody>
-        <c:forEach items="${ goodsList }" var="goodsList">
+        <c:forEach items="${ goodsList }" var="goodsList" varStatus="vs">
         <tr>
+            <td>${vs.index + 1}</td>
             <td>${goodsList.goodsno }</td>
             <td>${goodsList.goodsname }</td>
             <td>${goodsList.goodsprice }</td>
@@ -68,5 +83,5 @@
 </body>
 </html>
     <script>
-            document.getElementById("form")
+
     </script>

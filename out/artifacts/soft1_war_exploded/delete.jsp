@@ -35,20 +35,22 @@
 </table>
 ${right}
 <br>
-<a href="index.jsp">返回</a>
+<a href="display.jsp">返回</a>
 </body>
 </html>
-    <script>
+    <script type="text/javascript">
            function delVerify() {
                var goodsno = document.getElementById("goodsno").value;
                var goodsname = document.getElementById("goodsname").value;
 
-                if(goodsno ==null)
-                {
+                if(goodsno ==null||goodsno==='')
+                {var flag="fdsfd";
+
                     alert('商品id不能为空！');
+                    document.write(flag);//alert之后
                     return;
                 }
-                if(goodsname ==null)
+                if(goodsname ==null||goodsno==='')
                 {
                     alert('商品名字不能为空！');
                     return;
