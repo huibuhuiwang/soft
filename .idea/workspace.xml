@@ -6,48 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4bf1c45-1375-4753-916e-16a90f74ad5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e4bf1c45-1375-4753-916e-16a90f74ad5b" name="Default Changelist" comment="修改">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/dao/gooddao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/dao/impl/gooddaoimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/service/goodservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/service/impl/goodserviceimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/vo/good.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hellogithub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/gooddao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/impl/gooddaoimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/service/goodservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/service/impl/goodserviceimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/vo/good.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/QueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/QueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/deleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/deleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/displayServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/displayServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/updateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/classes/updateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/addresult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/addresult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/display.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/query.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/soft1_war_exploded/query.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soft1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/gooddao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/gooddao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/gooddao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/gooddaoimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/impl/gooddaoimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/displayServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/goodservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/goodservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/impl/goodserviceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/impl/goodserviceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/updateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/updateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vo/good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vo/good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/QueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/QueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/deleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/deleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/displayServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/displayServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/updateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/updateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/addresult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addresult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/display.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/query.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/query.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="D:/travel/travel/target/" />
@@ -119,7 +90,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="112" />
+          <entry key="java" value="115" />
           <entry key="jsp" value="73" />
           <entry key="ts" value="1" />
           <entry key="xml" value="16" />
@@ -128,7 +99,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="112" />
+          <entry key="JAVA" value="115" />
           <entry key="JSP" value="73" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="16" />
@@ -136,17 +107,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5820" />
+          <entry key="java" value="5877" />
           <entry key="jsp" value="6514" />
-          <entry key="txt" value="60" />
+          <entry key="txt" value="65" />
           <entry key="xml" value="588" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5820" />
+          <entry key="JAVA" value="5877" />
           <entry key="JSP" value="6514" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="PLAIN_TEXT" value="65" />
           <entry key="XML" value="588" />
         </counts>
       </usages-collector>
@@ -194,15 +165,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/impl/goodserviceimpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dbconn/DBconn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-119">
@@ -214,28 +176,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/addresult.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="244">
+              <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/soft/src/addServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/hellogithub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-386">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/gooddao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -267,7 +222,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/soft" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -309,6 +264,7 @@
         <option value="$PROJECT_DIR$/src/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/displayServlet.java" />
         <option value="$PROJECT_DIR$/web/addresult.jsp" />
+        <option value="$PROJECT_DIR$/src/hellogithub.java" />
       </list>
     </option>
   </component>
@@ -373,7 +329,18 @@
             <path>
               <item name="soft1" type="b2602c69:ProjectViewProjectNode" />
               <item name="soft" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soft1" type="b2602c69:ProjectViewProjectNode" />
               <item name="soft" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soft1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soft" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dbconn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +356,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/liuwenjiang/IdeaProjects/soft/web/login.jsp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610793496548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610794585511" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -741,8 +708,16 @@
       <workItem from="1609847532600" duration="2352000" />
       <workItem from="1609915774189" duration="1539000" />
       <workItem from="1610786188343" duration="1674000" />
-      <workItem from="1610787966421" duration="5202000" />
+      <workItem from="1610787966421" duration="7099000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1610793612473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610793612473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -751,7 +726,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276031000" />
+    <option name="totallyTimeSpent" value="277928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,6 +739,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.14812332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -776,13 +752,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27478755" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3432624" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.3432624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970452" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3432624" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31205675" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -804,6 +780,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -999,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbconn/DBconn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/display.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1030,18 +1003,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/addresult.jsp">
+    <entry file="file://$PROJECT_DIR$/soft/src/addServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        <state relative-caret-position="192">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soft/src/addServlet.java">
+    <entry file="file://$PROJECT_DIR$/soft/src/updateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft/src/QueryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addresult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbconn/DBconn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hellogithub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
